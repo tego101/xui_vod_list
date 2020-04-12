@@ -139,11 +139,19 @@
             This will be shown as the app logo.
           */
           logo: 'https://vignette.wikia.nocookie.net/napoleondynamite/images/b/b1/Pedro-sanchez.jpg',
-          //  ENTER SERVER API URL OR IP ** DO NOT USE HTTP ** //
-          api_url: '', // example: 192.168.1.1:25461
-          //  ENTER API USERNAME //
+          /*
+            API URL. 
+            => DO NOT USE HTTP <=
+            example: 192.168.1.1:25461
+          */
+          api_url: '',
+          /*
+            API USERNAME.
+          */
           api_username: '',
-          //  ENTER API PASSWORD //
+          /*
+            API PASSWORD.
+          */
           api_password: '',
           /*
             TMDB API KEY FOR MOVIE INFO.
@@ -153,19 +161,22 @@
           /*
             BIG BUTTON TOP RIGHT.
             Register for one at: https://www.themoviedb.org/settings/api
+            
+            Disabled
+              Enables an disables the button completely.
+            Name
+              Changes the text of the button.
+            URL
+              The location to go after clicked.
+            COLOR
+              Button colors. Note this will change the "MORE" buttons color too.
+              COLORS => outline-danger=red, outline-warning=yellow, outline-info=teal, outline-primary=blue
+              outline-dark=black, outline-secondary=grey
           */
           bigButton: {
-            //  Disables the button completely.
             disabled: false,
-            //  Changes the Text of the button.
             name: 'Install',
-            //  The address where the button will go to.
             url: '/',
-            /*
-            =>  Avaliable colors.
-            |   outline-danger=red, outline-warning=yellow, outline-info=teal, outline-primary=blue
-            |   outline-dark=black, outline-secondary=grey
-            */
             color: 'outline-primary'
           },
           /*
