@@ -1,4 +1,4 @@
-# xui_vod_list
+# XUI COMPATIBLE VOD LIST
 A dead simple SPA to retrieve VOD entries and display them nicely.
 
 
