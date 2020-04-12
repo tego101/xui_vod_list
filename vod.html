@@ -146,6 +146,7 @@
 
         el: '#app',
         data: {
+          
           /*
             LOGO TO BE DISPLAYED.
             This will be shown as the app logo.
@@ -170,6 +171,10 @@
             Register for one at: https://www.themoviedb.org/settings/api
           */
           tmdbkey: '',
+          /*
+            CHANGE THIS TO CHANGE THE AMOUNT OF VIDEOS TO DISPLAY.
+          */          
+          perPage: 5,
           /*
             BIG BUTTON TOP RIGHT.
             Register for one at: https://www.themoviedb.org/settings/api
@@ -214,7 +219,6 @@
           showTrailer: false,
           totalRows: 1,
           currentPage: 1,
-          perPage: 5,
           sortBy: 'added',
           sortDesc: true,
           sortDirection: 'desc',
