@@ -18,3 +18,11 @@ A dead simple SPA to retrieve VOD entries and display them nicely.
 
 <img src="https://i.postimg.cc/9QMpVLsz/Screen-Shot-2020-04-12-at-1-16-39-AM.png" alt="Screen-Shot-2020-04-12-at-1-16-39-AM"/>
 <img src="https://i.postimg.cc/15MHLkCL/Screen-Shot-2020-04-12-at-1-16-45-AM.png" alt="Screen-Shot-2020-04-12-at-1-16-45-AM"/>
+
+# Installation
+
+cd /home/xtreamcodes/xiptv_xtream_codes/wwwdir
+wget 'https://raw.githubusercontent.com/tego101/xui_vod_list/master/vod.html'
+chmod 775 vod.html
+nano vod.htm
+
