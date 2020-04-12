@@ -78,7 +78,7 @@
               <h1 class="display-6 ml-4 text-info font-weight-bold" >{{ row.item.name }}</h1>
             </template>
             <template v-slot:cell(stream_icon)="row">
-              <img :src="row.item.stream_icon" class="shadow-lg img-fluid rounded" width="120" @click="get_vod_info(row.item.name)"  v-b-modal="'modal-' + row.item.num">
+              <img :src="row.item.stream_icon" class="shadow-lg img-fluid rounded" width="200" @click="get_vod_info(row.item.name)"  v-b-modal="'modal-' + row.item.num">
               <b-modal
                 :id="'modal-' + row.item.num"
                 size="lg"
