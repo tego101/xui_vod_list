@@ -102,10 +102,7 @@
                      </p>
                    </b-col>
                    <b-col lg="6" sm="12" class="pt-4">
-                     <star-rating
-                       star-size="50"
-                       v-model="vod_info.vote_average">
-                     </star-rating>
+                     <h2 class="text-muted"><strong class="alig-middle text-warning mr-2 display-6">&#9733;</strong>{{ row.item.rating }}&nbsp;/&nbsp;10</h2>
                    </b-col>
                    <b-col lg="6" sm="12" class="pt-4">
                      {{ vod_info.release_date }}
@@ -132,9 +129,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
     <script>
-      Vue.component('star-rating', VueStarRating.default);
       var app = new Vue({
 
         el: '#app',
