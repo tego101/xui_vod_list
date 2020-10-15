@@ -1,7 +1,6 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # XUI COMPATIBLE VOD LIST
 A dead simple SPA to retrieve VOD entries and display them nicely.
-=> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #   http://github.com/tego101
 => ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #   BITCOIN -> 1KouUcQ7o4rVh8gTg6W3HPUDsBBdoC6G1K
